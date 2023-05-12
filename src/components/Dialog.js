@@ -9,10 +9,10 @@ function Dialog() {
 
     return (
         <>
-            {visible && <div className='dialog'>
+            <div className={visible ? 'visible dialog' : 'hidden dialog'}>
                 <button className='remove-dlg' onClick={handleVisible} >&#x2715;</button>
-                <p>Click close button</p>
-            </div>}
+                <p>Click close button </p>
+            </div>
             <button className='dialog-btn' onClick={handleVisible}>{visible ? 'Hide dialog' : 'Open Dialog'}</button>
         </>
     )
