@@ -23,7 +23,7 @@ body {
   display: grid;
   place-items: center;
   position: relative;
-  font-family: Nunito, sans-serif;
+  font-family: Nunito, Inter, sans-serif;
 }
 
 h1 {
