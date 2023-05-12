@@ -6,7 +6,10 @@ import Dialog from './components/Dialog';
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+      <StarRating />
+      <Dialog />
+    </>
   )
 }
 
