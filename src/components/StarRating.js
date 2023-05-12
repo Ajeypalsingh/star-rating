@@ -14,8 +14,8 @@ function StarRating() {
             {[...Array(5)].map((_, index) => (
                 <Star
                     key={index}
-                    selected={index < rating}
-                    onSelect={() => handleClick(index)}
+                    rated={index < rating}
+                    click={() => handleClick(index)}
                 />
             ))}
         </div>
