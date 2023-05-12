@@ -13,7 +13,7 @@ function Dialog() {
                 <button className='remove-dlg' onClick={handleVisible} >&#x2715;</button>
                 <p>Click close button </p>
             </div>
-            <button className='dialog-btn' onClick={handleVisible}>{visible ? 'Hide dialog' : 'Open Dialog'}</button>
+            <button className={visible ? 'dialog-btn red-btn' : 'dialog-btn green-btn'} onClick={handleVisible}>{visible ? 'Hide dialog' : 'Open Dialog'}</button>
         </>
     )
 }

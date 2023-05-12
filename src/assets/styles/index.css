@@ -68,7 +68,6 @@ h1 + h1 {
   height: 40px;
   width: 150px;
   padding: 0 10px;
-  background-color: var(--app-blue);
   color: var(--app-white);
   border-radius: 10px;
   font-size: 16px;
@@ -78,8 +77,12 @@ h1 + h1 {
   transition: all 0.1s ease-in-out;
 }
 
-.dialog-btn:hover {
-  background-color: var(--app-blue-hover);
+.green-btn {
+  background-color: var(--app-green);
+}
+
+.red-btn {
+  background-color: var(--app-red);
 }
 
 .remove-dlg {
